@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ecoclean",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A website describing cleaning service provider in Denver, CO area",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "JSWORLD Web Solutions <jsworldwebsolutions@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.18.12",

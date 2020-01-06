@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Restaurant`,
-    description: `Restaurant Website build with Gatsby.`,
+    title: `Ecoclean`,
+    description: `Cleaning Service Website build with Gatsby.`,
     author: `James Slaughter`,
   },
   plugins: [
