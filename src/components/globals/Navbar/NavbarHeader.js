@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import logo from '../../../images/ecoclean.png';
+import logo from '../../../images/ecoclean_new4.png';
 import { FaAlignRight } from 'react-icons/fa';
 import styled from 'styled-components';
 import { styles }  from '../../../utils';

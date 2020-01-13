@@ -1,15 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import { styles } from '../utils'
-export const Banner = ({ title, subtitle, children }) => {
-  return (
-    <BannerWrapper>
-      <h1>{title}</h1>
-      <h3>{subtitle}</h3>
-      {children}
-    </BannerWrapper>
-  )
-}
+const Banner = ({ title, subtitle, children }) => (
+  <BannerWrapper>
+    <h1>{title}</h1>
+    <h3>{subtitle}</h3>
+    {children}
+  </BannerWrapper>
+);
 
 const BannerWrapper = styled.div`
   margin-bottom: 3rem;
@@ -30,4 +28,6 @@ const BannerWrapper = styled.div`
 `
 Banner.defaultProps = {
   title: 'default title',
-}
+};
+
+export default Banner;

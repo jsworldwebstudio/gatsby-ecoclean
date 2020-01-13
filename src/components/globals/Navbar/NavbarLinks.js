@@ -14,23 +14,23 @@ class NavbarLinks extends Component {
       },
       {
         id: 1,
-        path: '/cleaning-services',
-        name: 'cleaning services'
+        path: '/services',
+        name: 'services'
       },
       {
         id: 2,
-        path: '/testamonials',
-        name: 'testamonials'
-      },
-      {
-        id: 3,
         path: '/about',
         name: 'about'
       },
       {
-        id: 4,
+        id: 3,
         path: '/contact',
         name: 'contact'
+      },
+      {
+        id: 4,
+        path: '/service-areas',
+        name: 'service areas'
       }
     ]
   };
@@ -75,7 +75,7 @@ li {
     padding: 0.5rem 1rem 0.5rem 1.3rem;
   };
 };
-height: ${props => (props.open? '172px': '0px') };
+height: ${props => (props.open? '152px': '0px') };
 overflow: hidden;
 ${styles.transObject({ time: '1s' })};
 @media (min-width: 768px){
