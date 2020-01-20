@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import { styles } from '../utils'
-const Banner = ({ title, subtitle, children }) => (
+const Banner = ({ title, subtitle, companyMoto, children }) => (
   <BannerWrapper>
     <h1>{title}</h1>
     <h3>{subtitle}</h3>
+    <h3>{companyMoto}</h3>
     {children}
   </BannerWrapper>
 );
@@ -15,7 +16,8 @@ const BannerWrapper = styled.div`
   h1 {
     color: ${styles.colors.mainWhite};
     font-size: 3rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
     ${styles.letterSpacing({ spacing: '0.75rem' })};
   }
   h3 {

@@ -56,16 +56,20 @@ const IconWrapper = styled.div`
     ${styles.transFunction()};
   };
   .facebook-icon {
-    color: #3b579d;
+    /* color: #3b579d; */
+    color: ${styles.colors.mainGreen};
   };
   .twitter-icon {
-    color: #3ab7f0;
+    /* color: #3ab7f0; */
+    color: ${styles.colors.mainGreen};
   };
   .instagram-icon {
-    color: #da5f53;
+    /* color: #da5f53; */
+    color: ${styles.colors.mainGreen};
   };
   .icon:hover {
-    color: ${styles.colors.mainGreen};
+    color: ${styles.colors.mainBlack};
+    transform: translateY(-5px);
   };
   display: none;
   @media (min-width: 768px) {

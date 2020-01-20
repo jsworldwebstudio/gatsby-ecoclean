@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { PageHeader, Banner } from '../utils';
+import Contact from '../components/globals/Contact';
 import contactImg from '../images/bcg/connectBcg.jpeg';
 
 const ContactPage = () => (
@@ -14,6 +15,7 @@ const ContactPage = () => (
       subtitle="let's discuss your cleaning service needs"
     />
     </PageHeader>
+    <Contact />
   </Layout>
 )
 export default ContactPage

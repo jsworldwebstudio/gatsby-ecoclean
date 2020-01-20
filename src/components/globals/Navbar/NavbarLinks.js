@@ -75,7 +75,7 @@ li {
     padding: 0.5rem 1rem 0.5rem 1.3rem;
   };
 };
-height: ${props => (props.open? '175px': '0px') };
+height: ${props => (props.open? '200px': '0px') };
 overflow: hidden;
 ${styles.transObject({ time: '1s' })};
 @media (min-width: 768px){

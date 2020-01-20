@@ -2,24 +2,24 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import { HomeHeader, Banner, BannerButton } from '../utils';
+import { HomeHeader, Banner } from '../utils';
 import homeImg from '../images/bcg/how-to-hire-a-cleaning-service.jpg';
-import QuickInfo from '../components/globals/HomePageComponents/Quickinfo';
-import Gallery from '../components/globals/HomePageComponents/Gallery';
+import About from '../components/globals/HomePageComponents/About';
+import Services from '../components/globals/HomePageComponents/Services';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`,`react`]} />
     <HomeHeader img={ homeImg }>
       <Banner
-        title="Conscious Ecoclean"
-        subtitle="A residential cleaning company servicing the Denver, Colorado metro area"
+        title="Conscious Eco Clean"
+        subtitle="A residential cleaning company servicing the Denver Colorado metro area"
+        companyMoto='"Eco Conscious cleaning services personalized for you!"'
       >
-        <BannerButton style={{ margin:'2rem auto' }}>menu</BannerButton>
       </Banner>
     </HomeHeader>
-    <QuickInfo />
-    <Gallery />
+    <About />
+    <Services />
   </Layout>
 )
 export default IndexPage

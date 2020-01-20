@@ -1,0 +1,43 @@
+.services {
+  background: var(--mainGrey1);
+  padding: 4rem 0;
+}
+.description {
+  /* margin: 0 auto; */
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 25vw;
+  /* margin-right: 25vw; */
+}
+.center {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 2rem;
+}
+.service {
+  margin: 2rem 0;
+  text-align: center;
+}
+.service span {
+  background: var(--primaryColor);
+  padding: 0.5rem;
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.service h4 {
+  text-transform: uppercase;
+}
+.services a:link,
+.services a:visited,
+.services a:active
+{
+  color: var(--mainWhite1);
+}
+.services a {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 42vw;
+}
