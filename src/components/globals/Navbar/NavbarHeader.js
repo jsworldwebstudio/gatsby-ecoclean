@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import logo from '../../../images/ecoclean_new4.png';
+import logo from '../../../images/ecoclean_logo.png';
+// import logo from '../../../images/ecoclean_new4.png';
 import { FaAlignRight } from 'react-icons/fa';
 import styled from 'styled-components';
 import { styles }  from '../../../utils';
@@ -26,7 +27,7 @@ class NavbarHeader extends Component {
 export default NavbarHeader;
 
 const HeaderWrapper = styled.div`
-  padding: 0.4rem 1rem;
+  padding: 0.6rem 1rem 0.3rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

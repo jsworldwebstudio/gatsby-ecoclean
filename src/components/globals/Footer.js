@@ -94,10 +94,10 @@ const FooterWrapper = styled.footer`
     margin: 1rem auto;
   }
   .links {
-    width: 40rem;
-    display: flex;
-    justify-content:space-between;
-    margin:0 auto;
+    width: 49vw;
+    /* display: flex;
+    justify-content:space-between; */
+    margin: 0 auto;
   }
   .icon {
     color:${styles.colors.mainWhite};
@@ -124,8 +124,8 @@ const FooterWrapper = styled.footer`
     ${styles.border({color: `${styles.colors.mainGreen}` })};
   }
   .links a {
-    /* display: inline-block; */
-    display: flex;
+    display: inline-block;
+    /* display: flex; */
     text-decoration: none;
     text-transform: uppercase;
     color: ${styles.colors.mainWhite};
@@ -140,11 +140,17 @@ const FooterWrapper = styled.footer`
   /* .links {
     display: none;
   } */
-  @media (min-width: 768px){
-    /* .links {
-      display: block;
-    }; */
+  @media (max-width: 992px){
+    .links {
+      width: 30vw;
+    };
   };
+  /* @media (min-width: 576px){
+    span {
+      display: inline-block;
+      margin: 0 0.35rem;
+    }
+  } */
 `
 
 export default Footer;

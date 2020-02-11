@@ -10,7 +10,7 @@ const ServiceAreasPage = () => (
     <SEO title="Services" keywords={[`gatsby`, `application`,`react`]} />
     <PageHeader img={ serviceAreaImg }>
     <Banner
-      title="services areas"
+      title="service areas"
       subtitle="the denver colorado metro areas we cover"
     />
     </PageHeader>

@@ -37,7 +37,10 @@
   color: var(--mainWhite1);
 }
 .services a {
-  margin-top: 0;
+  /* margin-top: 0;
   margin-bottom: 0;
-  margin-left: 42vw;
+  margin-left: 42vw; */
+  width: 20vw;
+  margin: 0 auto;
+  display: grid;
 }
