@@ -14,7 +14,7 @@ const IndexPage = () => (
       <Banner
         title="Conscious Eco Clean"
         subtitle="A residential cleaning company servicing the Denver Colorado metro area"
-        companyMoto='"Eco Conscious cleaning services personalized for you!"'
+        companyMoto="Eco Conscious cleaning services personalized for you!"
       >
       </Banner>
     </HomeHeader>

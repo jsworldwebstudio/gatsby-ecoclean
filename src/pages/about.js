@@ -17,7 +17,7 @@ const AboutPage = () => (
     <AboutWrapper>
       <TitleNew title="our" subtitle="background" />
       <p>
-        <span>Conscious Eco Clean LLC. is an eco-conscious cleaning company that was established in 2018.</span>
+        <span>Conscious Eco Clean LLC. is an eco conscious cleaning company that was established in 2018.</span>
         <span> Our company is rooted through a passion for the world, people and self-ownership.</span>
         <span> Our experience comes from employment with other self-owned cleaning service companies.</span>
         <span> Through this employment we were mentored and encouraged to develop a concept of our own.</span>
@@ -29,8 +29,8 @@ const AboutPage = () => (
     <AboutWrapper>
       <TitleNew title="our" subtitle="mission" />
       <p>
-        <span>Our mission at Conscious Eco Clan LLC. is to provide a trustworthy, thorough, customizable cleaning experience for your home or office.</span>
-        <span> We strive to provide comfort and ultimate satisfaction while continuing to do our part be conscious of our environment.</span>
+        <span>Our mission at Conscious Eco Clean LLC. is to provide a trustworthy, thorough, customizable cleaning experience for your home or office.</span>
+        <span> We strive to provide comfort and ultimate satisfaction while continuing to do our part and be conscious of our environment.</span>
         <span> We are passionate about the service we provide and the lives we touch.</span>
       </p>
     </AboutWrapper>

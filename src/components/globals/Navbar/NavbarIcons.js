@@ -10,7 +10,7 @@ class NavbarIcons extends Component {
       {
         id: 0,
         icon: <FaFacebook className="icon facebook-icon" />,
-        path: 'https://www.facebook.com'
+        path: 'https://www.facebook.com/consciosecoclean'
       },
       {
         id: 1,
@@ -20,7 +20,7 @@ class NavbarIcons extends Component {
       {
         id: 2,
         icon: <FaInstagram className="icon instagram-icon" />,
-        path: 'https://www.instagram.com'
+        path: 'https://www.instagram.com/consciousecoclean'
       },
     ]
   };

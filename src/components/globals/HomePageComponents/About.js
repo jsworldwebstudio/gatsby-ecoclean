@@ -16,7 +16,7 @@ const About = () => (
       <article className={styles.aboutInfo}>
         <h4>explore the difference</h4>
         <p>
-          <span>Welcome to Conscious Eco Clean LLC. We are a brand new "eco conscious" cleaning company.</span>
+          <span>Welcome to Conscious Eco Clean LLC. We are a brand new eco conscious cleaning company.</span>
           <span> Here at Conscious Eco Clean, we strive to develop a personalized cleaning plan in collaboration with each customer to effectively and efficiently meet your cleaning needs.</span>
         </p>
         <Link to="/about">

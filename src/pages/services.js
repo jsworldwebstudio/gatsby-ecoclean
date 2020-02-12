@@ -17,7 +17,7 @@ const ServicesPage = () => (
     <ServicesWrapper>
       <TitleNew title="our" subtitle="services" />
       <p>
-        <span>Welcome to Conscious Eco Clean LLC., we are a newly established "eco - conscious" cleaning company.</span>
+        <span>Welcome to Conscious Eco Clean LLC., we are a newly established eco conscious cleaning company.</span>
         <span> Here at Conscious Eco Clean LLC., we strive to develop a personalized cleaning plan in collaboration with each homeowner or businessowner to effectively and efficiently meet your cleaning needs.</span>
       </p>
       <p>
